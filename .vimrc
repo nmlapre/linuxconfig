@@ -20,3 +20,4 @@ set shiftwidth=4               " see :h 'shiftwidth'
 nnoremap ; :        " sets ; in normal mode to become ; (efficiency)
 set mouse=a
 set pastetoggle=<F2>
+set showtabline=2
