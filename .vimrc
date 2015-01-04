@@ -14,10 +14,11 @@ set switchbuf=useopen,usetab
 set tags=./tags,tags;/
 set wildmenu
 nnoremap gb :buffers<CR>:sb<Space>
+set expandtab
 set tabstop=4                  " see :h 'tabstop'
 set softtabstop=4              " see :h 'softtabstop'
 set shiftwidth=4               " see :h 'shiftwidth'
-nnoremap ; :        " sets ; in normal mode to become ; (efficiency)
+nnoremap ; :
 set mouse=a
 set pastetoggle=<F2>
 set showtabline=2
